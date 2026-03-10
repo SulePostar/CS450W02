@@ -1,4 +1,4 @@
 export default {
   openHour: 9,
-  closeHour: 22
+  closeHour: 20
 }

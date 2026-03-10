@@ -6,8 +6,9 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: colors.back,
     alignItems: "center",
-    justifyContent: "space-around",
-    paddingTop: 40
+    justifyContent: "flex-start",
+    paddingTop: 40,
+    marginTop: -10
   },
   title: {
     fontSize: 24,
@@ -21,7 +22,7 @@ const styles = StyleSheet.create({
     marginTop: 18
   },
   header: {
-    flex: 1,
+    flex: 0.5,
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: colors.primary,
@@ -33,7 +34,7 @@ const styles = StyleSheet.create({
     width: "100%",
     flex: 1,
     alignItems: "center",
-    justifyContent: "flex-end",
+    justifyContent: "space-around",
     backgroundColor: colors.primary,
     paddingTop: 20,
     paddingBottom: 40
@@ -45,7 +46,7 @@ const styles = StyleSheet.create({
   },
   menu: {
     width: "96%",
-    flex: 5,
+    flex: 6,
     alignItems: "center",
     justifyContent: "flex-start",
     marginBottom: 10
